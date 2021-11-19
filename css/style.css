@@ -1,0 +1,131 @@
+/*General settings*/
+body{
+    background-color: #0D0D0D;
+    width: 1300px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+/*Nav bar*/
+
+nav{
+    max-height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+nav ul{
+    height: 100%;
+    float: right;
+    display: flex;
+    border: 1px solid green;
+    vertical-align: middle;
+}
+
+nav ul li{
+    justify-content: center;
+    align-items: baseline;
+}
+
+nav ul li a{
+    padding: 10px;
+}
+
+.logo{
+    max-height: 50px;
+    margin-left: 10px;
+}
+
+/*Header website*/
+header{
+    background-image: url("./../resources/images/img-mission-background.webp");
+    background-size: cover;
+    height: 700px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#mission-statement{
+    text-align: center;
+    background-color: #0D0D0D;
+    padding: 10px 0 10px 0;
+    justify-content: space-around;
+}
+
+/*Different tea's*/
+.tea-heading{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.tea-oversight{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.tea{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.tea img{
+    height: 200px;
+    width: 300px;
+}
+
+.tea h4{
+    margin-top: 10px;
+}
+
+/*Locations*/
+.locations{
+    background-image: url("./../resources/images/img-locations-background.webp");
+    background-size: cover;
+    background-position: 20%;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.locations h2{
+    padding: 50px 0 15px 0;
+}
+
+.location-oversight{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.location{
+    padding: 50px;
+    min-width: 300px;
+    background-color: #0D0D0D;
+    opacity: 0.9;
+}
+
+.location h2{
+    padding: 0 0 25px;
+}
